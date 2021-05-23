@@ -1,6 +1,6 @@
 #声明微服务的端口号
 server:
-  port: 9002
+  port: 9001
 
 #声明微服务的名称
 spring:
