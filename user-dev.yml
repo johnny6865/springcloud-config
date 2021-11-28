@@ -30,7 +30,7 @@ eureka:
     register-with-eureka: true
     #向eureka服务器索要信息
     fetch-registry: true
-    #用户微服务注册到url指定的Eureka服务器上(2台Eureka服务器)
+    #用户微服务注册到url指定的Eureka服务器上
     service-url:
       defaultZone: http://192.168.41.1:8888/eureka
   #微服务的提供方与eureka服务器的约定
