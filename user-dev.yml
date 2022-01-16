@@ -29,7 +29,7 @@ eureka:
   client:
     #向eureka服务器注册自己
     register-with-eureka: true
-    #需要向eureka服务器索要信息
+    #向eureka服务器索要注册信息
     fetch-registry: true
     #注册到url指定的Eureka服务器上
     service-url:
