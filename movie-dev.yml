@@ -19,12 +19,7 @@ eureka:
     #注册到url指定的eureka服务器上
     service-url:
       defaultZone: http://192.168.41.1:8888/eureka
-    
     #注册后
     #微服务的消费方与Eureka服务器的约定
     #每隔30秒获取并刷新注册信息,默认是30秒
-    registry-fetch-interval-seconds: 30  
-    
-   
-
-    
+    registry-fetch-interval-seconds: 30
